@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tempo{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

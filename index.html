@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container border p-5 my-5 w-25 text-center  ">
+
+        <h1>Temporizador</h1>
+
+        <div class="row gx-5">
+            <div class="col">
+                <label for="tiempo" class="form-label">Tiempo</label>
+                <input type="number" class="form-control " id="tiempo" name="tiempo" placeholder="00.00.00">
+            </div>
+            <div class="col">
+                <br>
+                <button class="btn btn-outline-dark my-2" id="iniciar">Iniciar</button>
+            </div>
+        </div>
+        <br>
+        <div id="tempo"></div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
